@@ -1,5 +1,11 @@
 function friend(friends) {
-    //your code here
+    let myArr = [];
+    for (let i = 0; i < friends.length; i++) {
+        if (friends[i].length == 4) {
+            myArr.push(friends[i]);
+        }
+    }
+    return myArr;
 }
 
 
